@@ -33,13 +33,19 @@ main('/tmp/editor2.txt')
 
 ### `editor(file, opts={})`
 
-Open file in an editor. `editor2` uses this ordering to select the
+Open file in an editor. `editor` uses this ordering to select the
 editor:
 
 1. `opts.editor`
 1. `process.env.VISUAL`
 1. `process.env.EDITOR`
 1. `notepad` on Windows, `vim` on all other operating systems
+
+If the editor exists with a non-zero exit code, `editor` throws an
+`Error` with `.code` set to the exit code.
+
+If a signal terminates the editor, `editor` throws an `Error` with
+`.signal` set to the signal.
 
 ## License
 
