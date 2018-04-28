@@ -14,7 +14,7 @@ npm i editor2
 ## Example
 
 ```js
-const editor = require('..')
+const editor = require('editor2')
 
 async function main (file) {
   await editor(file)
