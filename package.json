@@ -1,0 +1,32 @@
+{
+  "name": "editor2",
+  "version": "0.0.1",
+  "description": "Launch an editor in your Node.js application.",
+  "author": "Silas Boyd-Wickizer",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "standard"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "text",
+    "edit",
+    "emacs",
+    "shell",
+    "sublime",
+    "vim"
+  ],
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "editor": "^1.0.0"
+  }
+}
