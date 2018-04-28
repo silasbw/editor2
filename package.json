@@ -23,6 +23,7 @@
     "sublime",
     "vim"
   ],
+  "repository": "silasbw/editor2",
   "devDependencies": {
     "standard": "^11.0.1"
   },
