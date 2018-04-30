@@ -16,11 +16,13 @@
     "index.js"
   ],
   "keywords": [
-    "text",
     "edit",
     "emacs",
+    "promise",
+    "promises",
     "shell",
     "sublime",
+    "text",
     "vim"
   ],
   "repository": "silasbw/editor2",
