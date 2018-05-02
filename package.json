@@ -7,7 +7,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "standard --fix",
-    "test": "standard"
+    "test": "standard && mocha"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -31,6 +31,9 @@
   },
   "homepage": "https://github.com/silasbw/editor2",
   "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "proxyquire": "^2.0.1",
     "standard": "^11.0.1"
   },
   "dependencies": {
