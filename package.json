@@ -1,6 +1,6 @@
 {
   "name": "editor2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Launch an editor in your Node.js application.",
   "author": "Silas Boyd-Wickizer",
   "license": "MIT",
